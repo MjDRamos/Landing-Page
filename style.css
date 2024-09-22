@@ -8,6 +8,14 @@
 .hero {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.overview-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
 
 .hero, footer {
@@ -32,10 +40,13 @@
 
 .sign-up {
     background-color: #3882F6;
+    
 }
 
 .overview-block {
     display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .overview-box h1 {
